@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon:ital@0;1&display=swap');
+
+
 footer{
     posiion: fixed;
     bottom: 0;
@@ -5,6 +8,7 @@ footer{
     padding: 5px 5px;
     background: black
     color: #371D10;
+    font-family: "IM Fell French Canon";
     font-size; 12px;
 }
 .header{
