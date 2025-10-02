@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon:ital@0;1&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon:ital@0;1&family=Stylish&family=Uncial+Antiqua&display=swap');
+
 
 footer{
-    posiion: fixed;
+    position: fixed;
     bottom: 0;
     width: 100;
     padding: 5px 5px;
@@ -10,6 +12,31 @@ footer{
     color: #371D10;
     font-family: "IM Fell French Canon";
     font-size; 12px;
+}
+
+#myButton {
+    border-style: ridge;
+    background-color: 997950;
+    font-size: 20px;
+    font-family: 'IM Fell French Canon';
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#myButton:hover{
+    background-color: bisque;
+    color: 5c2c06;
+}
+
+
+
+
+h1 {
+    font-family: "Uncial Antiqua";
+    font-size: 50px;
 }
 .header{
     position: sticky;
